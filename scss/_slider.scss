@@ -1,5 +1,5 @@
 .slider_bg_1{
-    background-image: url(../img/banner/banner.png);
+    background-image: url(../img/banner/1.jpg);
 }
 .slider_bg_2{
     background-image: url(../img/banner/banner2.png);
@@ -24,10 +24,45 @@
             opacity: .5;
         }
         .slider_text{
-            h3{
+            h2{
                 color: #FFF;
                 font-family: $font2;
                 font-size: 78px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 54px;
+                &:before{
+                    position: absolute;
+                    content: "";
+                    height: 8px;
+                    width: 70%;
+                    background: rgb(255, 68, 68);
+                    bottom: 0;
+                    left: 0;
+                }
+             span{
+                 font-weight: 700;
+             }
+             @media #{$mobile_device} {
+               font-size: 30px;
+            //    letter-spacing: 3px;
+                line-height: 35px;
+            }
+             @media #{$tablet_device} {
+               font-size: 50px;
+               line-height: 62px;
+
+            }
+             @media #{$mid_device} {
+               font-size: 45px;
+               line-height: 55px;
+
+            }
+            }
+            h3{
+                color: #FFF;
+                font-family: $font2;
+                font-size: 65px;
                 font-weight: 400;
                 line-height: 84px;
                 margin-bottom: 54px;
@@ -80,5 +115,5 @@
                 }
             }
         }
-    } 
+    }
 }
