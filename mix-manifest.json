@@ -1,6 +1,5 @@
 {
-    "/css/style.css": "/css/style.css",
-    "/js/app.js": "/js/app.js",
-    "/public/css/vendor.css": "/public/css/vendor.css",
-    "/js/app.min.js": "/js/app.min.js"
+    "/css/app.css": "/css/app.css",
+    "/css/vendor.css": "/css/vendor.css",
+    "/js/vendor.js": "/js/vendor.js"
 }
