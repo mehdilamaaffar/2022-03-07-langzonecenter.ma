@@ -1,6 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
 
+    #Alternate default index page
+    DirectoryIndex home.html
+
     RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
     RewriteRule ^ /%1 [NC,L,R]
 
